@@ -37,6 +37,14 @@ $('form').validate({
             required: true
         },
     },
+    messages: {
+        nome: 'Por favor, insira seu nome',
+        email: 'Por favor, insira seu email',
+        telefone: 'Por favor, insira seu telefone',
+        endereço: 'Por favor, insira seu endereço',
+        cep: 'Por favor, insira seu CEP',
+        cpf: 'Por favor, insira seu CPF'
+    },
     submitHandler: function (form) {
         alert("Sua requisição foi enviada para análise, parabéns pela aquisição!");
         form.reset();
